@@ -23,5 +23,5 @@ steps:
       containerRegistry: 'myconnection'
       repository: '$(imageName)'
       command: 'buildAndPush'
-      Dockerfile: '**/Dockerfile'
+      Dockerfile: './Dockerfile'
       
